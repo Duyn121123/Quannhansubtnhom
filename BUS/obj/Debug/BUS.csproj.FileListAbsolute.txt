@@ -1,0 +1,11 @@
+D:\Windows form\Duannhom\Nhanvien\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Windows form\Duannhom\Nhanvien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\BUS.dll
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\BUS.pdb
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\DAL.dll
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\DTO.dll
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\DAL.pdb
+D:\Windows form\Duannhom\Nhanvien\BUS\bin\Debug\DTO.pdb
+D:\Windows form\Duannhom\Nhanvien\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Windows form\Duannhom\Nhanvien\BUS\obj\Debug\BUS.dll
+D:\Windows form\Duannhom\Nhanvien\BUS\obj\Debug\BUS.pdb

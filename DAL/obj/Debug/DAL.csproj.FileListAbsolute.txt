@@ -1,0 +1,9 @@
+D:\Windows form\Duannhom\Nhanvien\DAL\bin\Debug\DAL.dll
+D:\Windows form\Duannhom\Nhanvien\DAL\bin\Debug\DAL.pdb
+D:\Windows form\Duannhom\Nhanvien\DAL\bin\Debug\DTO.dll
+D:\Windows form\Duannhom\Nhanvien\DAL\bin\Debug\DTO.pdb
+D:\Windows form\Duannhom\Nhanvien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Windows form\Duannhom\Nhanvien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Windows form\Duannhom\Nhanvien\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Windows form\Duannhom\Nhanvien\DAL\obj\Debug\DAL.dll
+D:\Windows form\Duannhom\Nhanvien\DAL\obj\Debug\DAL.pdb
