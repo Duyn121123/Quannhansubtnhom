@@ -138,12 +138,13 @@ namespace Nhanvien
                         var cell = ws.Cells[rowIndex, colIndex];
                         cell.Value = item;
                         colIndex++;
+                        
                     }
                     List<Nhan_vien> userList = new List<Nhan_vien>();
-                    for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+                    for (int i = 0; i < dataGridView1.Rows.Count-1 ; i++)
                       {
                         Nhan_vien ob = new Nhan_vien();
-                      //  ob.STT = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                       ob.STT = dataGridView1.Rows[i].Cells[0].Value.ToString();
                         ob.Ma_nhan_vien = dataGridView1.Rows[i].Cells[1].Value.ToString();
                         ob.Ma_chuc_vu = dataGridView1.Rows[i].Cells[2].Value.ToString();
                         ob.Ho_dem = dataGridView1.Rows[i].Cells[3].Value.ToString();
@@ -153,22 +154,25 @@ namespace Nhanvien
                         ob.Que_quan = dataGridView1.Rows[i].Cells[7].Value.ToString();
                        ob.Gioi_tinh = dataGridView1.Rows[i].Cells[8].Value.ToString();
                         ob.Ma_phong = dataGridView1.Rows[i].Cells[9].Value.ToString();
+                      
                         userList.Add(ob);
-                    }  
+                    }
+                   // MessageBox.Show(userList[0].Ma_phong + "," + userList[0].Ma_nhan_vien);
                     foreach (var item in userList)
                     {
                         colIndex = 1;
                         rowIndex++;
-                      //  ws.Cells[rowIndex, colIndex].Value = item.STT;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ma_nhan_vien;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ma_chuc_vu;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ho_dem;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ten;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ngay_sinh;
-                        ws.Cells[rowIndex, colIndex].Value = item.So_dien_thoai;
-                        ws.Cells[rowIndex, colIndex].Value = item.Que_quan;
-                        ws.Cells[rowIndex, colIndex].Value = item.Gioi_tinh;
-                        ws.Cells[rowIndex, colIndex].Value = item.Ma_phong;
+                        
+                        ws.Cells[rowIndex, colIndex++].Value = item.STT;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ma_nhan_vien;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ma_chuc_vu;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ho_dem;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ten;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ngay_sinh;
+                        ws.Cells[rowIndex, colIndex++].Value = item.So_dien_thoai;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Que_quan;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Gioi_tinh;
+                        ws.Cells[rowIndex, colIndex++].Value = item.Ma_phong;
                     }
                     Byte[] bin = p.GetAsByteArray();
                     File.WriteAllBytes(filePath, bin );

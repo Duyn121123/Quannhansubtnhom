@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DTO
 {
     public class Nhan_vien
-    {  //a public string STT {  get; set; }
+    {   public string STT {  get; set; }
         public string Ma_nhan_vien {  get; set; }
         public string Ma_chuc_vu {  get; set; }
         public string Ho_dem {  get; set; }
@@ -18,7 +18,8 @@ namespace DTO
         public string Gioi_tinh { get; set;  }
         public string Ma_phong { get; set;}
         public Nhan_vien() { }
-        public Nhan_vien (string Ma_nhan_vien, string Ma_chuc_vu, string Ho_dem, string Ten, string Ngay_sinh, string So_dien_thoai, string Que_quan, string Gioi_tinh, string Ma_phong)
+        public Nhan_vien (string Ma_nhan_vien, string Ma_chuc_vu, string Ho_dem, string Ten, 
+            string Ngay_sinh, string So_dien_thoai, string Que_quan, string Gioi_tinh, string Ma_phong)
         {
            
            this. Ma_nhan_vien = Ma_nhan_vien;
